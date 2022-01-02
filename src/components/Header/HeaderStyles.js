@@ -17,6 +17,9 @@ export const Container = styled.div`
     grid-row-gap: 0.5rem;
   }
 `;
+export const Span = styled.span`
+  font-size: 2rem;
+`;
 export const Div1 = styled.div`
   grid-area: 1 / 1 / 2 / 2;
   display: flex;
@@ -27,11 +30,14 @@ export const Div1 = styled.div`
   }
 `;
 export const Div2 = styled.div`
-  grid-area: 1 / 2 / 2 / 4;
+  grid-area: 1 / 2 / 2 / 5;
   display: flex;
   justify-content: space-around;
+  @media ${(props) => props.theme.breakpoints.md} {
+    grid-area: 2 / 2 / 5 / 5;
+  }
   @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: 2 / 2 / 3 / 5;
+    grid-area: 2 / 2 / 5 / 5;
   }
 `;
 export const Div3 = styled.div`
@@ -44,6 +50,17 @@ export const Div3 = styled.div`
     grid-area: 1 / 4 / 2 / 6;
   }
 `;
+
+export const SocialContainer = styled.div`
+	display: flex;
+  align-items: center;
+
+	@media ${props => props.theme.breakpoints.md}{
+		justify-content: center;
+		padding-right: 16px;
+		flex-wrap: wrap;
+	}
+`
 
 // Navigation Links
 export const NavLink = styled.a`

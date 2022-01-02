@@ -11,9 +11,9 @@ const data = [
 ];
 
 const Acomplishments = () => (
-  <div>
-    Acomplishments
-  </div>
+  <Section>
+    <SectionTitle>Personal Acomplishments</SectionTitle>
+  </Section>
 );
 
 export default Acomplishments;
