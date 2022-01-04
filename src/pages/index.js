@@ -18,9 +18,12 @@ const Home = () => {
           <MdKeyboardArrowUp/>
         </Link>
       </SecondaryBtn>
-      <Section grid>
+      <Section grid >
         <Hero />
-        <BgAnimation style={{ width: '100%'}}/>
+        <div style={{textAlign: 'center'}}>
+          <img src='/images/fotoCV.jpg' style={{ width: '250px', height: '250px', borderRadius: '50%'}}/>
+          <BgAnimation />
+        </div>
       </Section>
       <Projects />
       <Education/>

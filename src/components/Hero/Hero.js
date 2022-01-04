@@ -9,7 +9,7 @@ const Hero = (props) => {
   const [showMore, setshowMore] = useState(false);
 
   return (
-    <Section row nopadding>
+    <Section row nopadding style={{ margin: 0}}>
       <LeftSection>
         <SectionTitle main center>
           Hello, I am <br/>
