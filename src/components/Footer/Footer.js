@@ -14,7 +14,7 @@ const Footer = () => {
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Download CV</LinkTitle>
-          <LinkItem href='https://drive.google.com/file/d/1TkTqVFu1HA67mns5FB1TA0YepNwvxgbh/view?usp=sharing' target='_blank'>
+          <LinkItem href='https://drive.google.com/file/d/1qNc8qOKK6-VXw5QVgRA8X-3OYrK08Nx6/view?usp=sharing' target='_blank'>
             Here
           </LinkItem>
         </LinkColumn>
